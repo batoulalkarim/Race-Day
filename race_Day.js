@@ -10,3 +10,6 @@ if (early && age > 18) {
 else if(!early && age > 18) {
     console.log(`Race will begin at 11:00, your race number is: ${raceNumber}.`);
 }
+else if (age < 18) {
+    console.log(`Race will begin at 12:30, your race number is ${raceNumber}.`);
+}
